@@ -1,29 +1,3 @@
-// var screen = document.getElementById("calculator-screen");
-// var button = document.getElementsByClassName("button");
-// var operand1= 0;
-// var operand2 = null;
-// var operator = null;
-
-// // Iterating an loop for an button
-// for (var i =0; i<button.length; i++){
-//     //  moving an each button through arr while
-//     //  having addEventListener
-//     button[i].addEventListener("click",function(){
-//         value = this.getAttribute("data-value");
-//         if (value < "9" ||
-//             value == "+"||
-//             value == "-"||
-//             value == "*"||
-//             value == "/"||
-//             value == "%"||
-//             value == "+/-"||){
-//                 operator = value;
-//             }
-//     })
-    
-    
-// }
-
 var buttons = document.getElementsByClassName("button");
 var display = document.getElementById("calculator-screen");
 
