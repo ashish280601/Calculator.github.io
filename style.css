@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+/* Creating an background layout */
+#display-calculator-layout{
+    width:500px;
+    height: 485px;
+    margin: 100px auto;
+    padding: 1.2rem;
+    background-color: rgb(226,224,224);
+}
+/* Styling Heading of project name */
+h1{
+    text-align: center;
+    font-size: x-large;
+    padding:0.5rem;
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    margin:0.1rem;    
+}
+/* Styling Screen */
+#calculator-screen{
+    margin: 25px 0px 0px 0px; 
+    border: 2px solid white;
+    background-color: rgb(245,245,245);
+    font-size: 2.8rem;
+    width: 495px;
+    height: 75px ;    
+}
+
+/* styling an Keypad */
+#keypad{
+    margin: 20px 0px 0px 0px;
+}
+
+/* Common Styling Giving Radius to screen and the background layout */
+#display-calculator-layout , #calculator-screen{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button{
+    width: 118px;
+    height: 50px;
+    display: inline-block;
+    border: 2px solid white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 0.2rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:rgb(255,200,119);
+}
+
+#spcl-value{
+    width:244px
+}
+
+span{
+    font-size: larger;
+}
+
+.operand{
+    background-color: rgb(193,68,68);
+}
